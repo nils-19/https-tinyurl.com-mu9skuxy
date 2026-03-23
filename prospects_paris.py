@@ -200,7 +200,7 @@ def extraire_arrondissement(address_components):
 
 NOTE_MIN          = 3.0   # Note Google minimale
 NOTE_MAX          = 4.4   # Note Google maximale (trop haute = déjà bien référencé)
-AVIS_MIN          = 5     # Nombre minimal d'avis
+AVIS_MIN          = 6     # Nombre minimal d'avis (strictement "plus de 5")
 STATUT_REQUIS     = "OPERATIONAL"
 
 def est_prospect_qualifie(commerce):
